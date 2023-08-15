@@ -1,0 +1,35 @@
+*{
+    margin: 0px ;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'd1';
+    src: url('../assets/fonts/d1.woff2');
+}
+
+@font-face {
+    font-family: 'd2';
+    src: url('../assets/fonts/d2.woff2');
+}
+
+@font-face {
+    font-family: 'd3';
+    src: url('../assets/fonts/d3.woff2');
+}
+
+@font-face {
+    font-family: 'd4';
+    src: url('../assets/fonts/d4.woff2');
+}
+
+@font-face {
+    font-family: 'd5';
+    src: url('../assets/fonts/d5.woff2');
+}
+
+@font-face {
+    font-family: 'd6';
+    src: url('../assets/fonts/d6.woff2');
+}
+

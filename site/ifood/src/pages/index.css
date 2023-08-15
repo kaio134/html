@@ -1,0 +1,28 @@
+.cabecalho{
+    display: flex;
+    height: 8vh;
+    background-color: brown;
+}
+
+.cabecalho > svg{
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.link > a {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    flex-direction: row;
+    font: 25px;
+}

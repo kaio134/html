@@ -1,0 +1,546 @@
+.tudo{
+    background-color: #030328;
+    height: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    height: 10vh;
+    background-color:  rgba(0,0,0,.3);
+    justify-content: space-between;
+    
+ 
+ 
+}
+
+.cabecalho > div > img {
+    display: flex;
+    width: 160px;
+    align-items: center;
+   margin-left: 20px;
+   margin-top: 20px;
+   position: fixed;
+}
+
+.s1-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.s1-cabecalho > p {
+    color: #fff;
+    font: 12px 'f2';
+    margin-top: 23px;
+    margin-right: 10px;
+ 
+}
+
+
+.s1-cabecalho > a {
+    color: #fff;
+    margin: 12px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: rgb(181, 53, 246);
+    height: 6vh;
+    width: 12vw;
+    font: 12px 'f1';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6.6px 24px 6px;
+
+}
+
+.s1-cabecalho > a:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s;
+}
+
+.secao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #030328;
+    height: 100vh;
+}
+
+.secao1 > h1 {
+    display: flex;
+    color: #fff;
+    text-align: left !important;
+    margin-right: 880px;
+    font: 30px 'f3';
+   
+}
+
+.secao1 img{
+    width: 75vw;
+    margin-bottom: 20px;
+
+}
+
+.secao2{
+    display: flex;
+    height: 18vh;
+    flex-direction: row;
+    background-image: url(../assets/img/testura.jpg);
+    justify-content: space-around;
+    color: #ffffff;
+
+}
+
+.secao2 > h1 {
+  color: #fff;
+  font: 30px 'f3';
+  margin-top: 40px;
+}
+
+.secao2 > a {
+    color: #fff;
+    text-decoration: none;
+    margin-top: 39px;
+    border-radius: 30px;
+    background-color:  rgb(181, 53, 246);
+    display: flex;
+    width: 14vw;
+    height: 3vw;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    font: 13px 'f2';
+}
+
+.secao2 > a:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.secao3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #030328;
+    color: #fff;
+}
+
+.e{
+    width: 555px;
+    font: 20px 'f5';
+    margin: 23px;
+    padding: 10px;
+    margin-left: 45px;
+    margin-top: 50px;
+    
+}
+
+.d{
+    width: 570px;
+    font: 20px 'f5';
+    margin: 20px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.secao4{
+    display: flex;
+    flex-direction: column;
+    background-color: #030328;
+    height: 100%;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.sc4-cab{
+    display: flex;
+    flex-direction: row;
+    background-color: #030328;
+    justify-content: space-between;
+    color: #fff;
+    margin-top: 40px;
+}
+.sc4-cab > h1 {
+    color: #fff;
+    margin-left: 30px;
+    font: 30px 'f3';
+    margin-bottom: 40px;
+}
+
+.sc4-cab > a{
+    text-decoration: none;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    font: 16px 'f1';
+    color: #9e86ff;
+}
+
+.sc4-cab > a:hover{
+    color: #fff;
+}
+
+.part-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+
+.part-1 > div > img {
+   width: 20vw;
+}
+
+.part-1 > div > h1 {
+ font: 16px 'f5';
+ margin: 10px;
+}
+
+.part-1 > div > p {
+   font: 12px 'f5';
+   margin: 10px;
+}
+
+.part-1 > div > a{
+    font: 12px 'f5';
+    text-decoration: none;
+    color: #9e86ff;
+}
+
+.part-1 > div > a:hover{
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+.part-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #030328;
+    margin-left: 30px;
+
+}
+
+.part-2 > div > img {
+   width: 20vw;
+}
+
+.part-2 > div > h1 {
+    font: 16px 'f5';
+    margin: 10px;
+  
+}
+
+.part-2 > div > p {
+    font: 12px 'f5';
+    margin: 10px;
+
+}
+
+.part-2 > div > a{
+    font: 12px 'f5';
+    text-decoration: none;
+    color: #9e86ff;
+}
+
+.part-2 > div > a:hover{
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.part-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #030328;
+    margin-left: 30px;
+
+}
+
+.part-3 > div > img {
+    width: 20vw;
+ }
+ 
+ .part-3 > div > h1 {
+    font: 16px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-3 > div > p {
+    font: 12px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-3 > div > a{
+    font: 12px 'f5';
+     text-decoration: none;
+     color: #9e86ff;
+ }
+ 
+ .part-3 > div > a:hover{
+     color: #fff;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+
+.part-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #030328;
+    margin-left: 30px;
+}
+
+.part-4 > div > img {
+    width: 20vw;
+ }
+ 
+ .part-4 > div > h1 {
+    font: 16px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-4 > div > p {
+    font: 12px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-4 > div > a{
+    font: 12px 'f5';
+     text-decoration: none;
+     color: #9e86ff;
+ }
+ 
+ .part-4 > div > a:hover{
+     color: #fff;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+
+
+
+.part-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #030328; 
+    margin-left: 30px;  
+}
+
+.part-5 > div > img {
+    width: 20vw;
+ }
+ 
+ .part-5 > div > h1 {
+    font: 16px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-5 > div > p {
+    font: 12px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-5 > div > a{
+    font: 12px 'f5';
+     text-decoration: none;
+     color: #9e86ff;
+ }
+ 
+ .part-5 > div > a:hover{
+     color: #fff;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+
+
+.part-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #030328;
+    margin-left: 30px;
+   
+}
+
+.part-6 > div > img {
+    width: 20vw;
+ }
+ 
+ .part-6 > div > h1 {
+    font: 16px 'f5';
+ }
+ 
+ .part-6 > div > p {
+    font: 12px 'f5';
+    margin: 10px;
+ }
+ 
+ .part-6 > div > a{
+    font: 12px 'f5';
+     text-decoration: none;
+     color: #9e86ff;
+ }
+ 
+ .part-6 > div > a:hover{
+     color: #fff;
+     transition: 0.3s;
+     cursor: pointer;
+ }
+
+ .secao5{
+    display: flex;
+    height: 100%;
+    background-color: #030328;
+    flex-direction: column;
+ }
+
+ .secao5 > h1{
+    background-color: #030328;
+    color: #fff;
+    font: 30px 'f3';
+    margin-left: 55px;
+    margin-top: 100px;
+ }
+
+ .filmes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin: 10px;
+ }
+ 
+ 
+ .filmes1> div > img {
+    width: 40vh;
+    margin-top: 30px;
+ }
+
+.filmes1 > div > h2 {
+    font: 16px 'f3';
+    color: #fff;
+    margin-top: 10px;
+    
+ }
+
+ .filmes2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin: 10px;
+ }
+ 
+ 
+ .filmes2> div > img {
+    width: 40vh;
+    margin-top: 30px;
+ }
+
+.filmes2 > div > h2 {
+    font: 16px 'f3';
+    color: #fff;
+    margin-top: 10px;
+    
+ }
+
+
+ .filmes3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 30px;
+    margin: 10px;
+ }
+ 
+ 
+ .filmes3> div > img {
+    width: 40vh;
+    margin-top: 30px;
+ }
+
+.filmes3 > div > h2 {
+    font: 16px 'f3';
+    color: #fff;
+    margin-top: 10px;
+    
+ }
+
+
+.secao6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #030328;
+    
+    height: 40vh;
+}
+
+.secao6 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secao6 > .p1 >a{  
+    color:#9e86ff;
+
+    font: 12.8px 'f1';
+
+    margin: 3vh;
+
+    letter-spacing: 3px; 
+}
+
+.secao6 > .p1 >a:hover{
+    color: #fff;
+    transition: 0.8;
+    cursor: pointer;
+}
+
+
+.secao6 a{
+    color:#9e86ff;
+
+    font: 12px 'f5';
+
+    margin: 3vh;
+    margin-top: 1vh;
+
+}
+
+.secao6 a:hover{
+    color: #fff;
+    transition: 0.8;
+    cursor: pointer;
+}
+
+.secao6 p{
+    color:#9e86ff;
+
+    font: 12px 'f3';
+    margin-top: 1vh; 
+    margin-bottom: 5vh;   
+    padding: 10px;
+}
+
+
+.secao6 img{
+    height: 20px;
+    margin: 3vh;
+}
+

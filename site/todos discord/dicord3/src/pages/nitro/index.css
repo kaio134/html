@@ -1,0 +1,417 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #f6f6f6;
+}
+
+.secao-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px 130px 0px;
+    color: #fff;
+    background-size: cover;
+    background-position: -430px 0px;
+    background-color: #5865f2;
+    position: relative;
+    overflow: hidden;
+}
+
+.secao-01 > a {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.s1-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin-bottom: 140px;
+}
+
+.s1-cabecalho > a {
+    font: 18px 'd4';
+    background-color: #fff;
+    color: #23272a;
+    padding: 10px 14px;
+    border-radius: 30px;
+    margin: 0px 10px;
+}
+
+.secao-01 > a:hover {
+    box-shadow: 0px 8px 15px rgb(0 0 0 / 20%);
+    color: #5865f2;
+}
+
+.s1-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.s1-menu a {
+    margin: 5px 20px;
+    font: 20px 'd6';
+}
+
+.s1-menu a:hover {
+    text-decoration: underline;
+}
+
+.secao-01 > h1 {
+    font: 70px  'd3';
+    width: 1300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.secao-01 > p {
+    font: 28px 'd2';
+    width: 1300px;
+
+    line-height: 30px;
+    margin-bottom: 30px
+}
+
+
+
+
+.secao-02 {
+    background-color: #fff;
+    height: 100%;
+    
+}
+
+.cb-h1{
+    margin: 20px;
+    font-size: 30px;
+    font: 25px 'd1';
+    padding: 20px ;
+
+}
+
+.cb-p{
+    margin: 20px;
+    font-size: 37px;
+    padding: 20px ;
+    font: 30px 'd4';
+    
+    
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    margin:100px;
+    padding: 20px;
+
+}
+
+.conteudo>div {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.conteudo img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteudo h1 {
+    display: flex;
+    color: #5865f2;
+    text-align: center;
+    justify-content: center;
+    font: 15px 'd1';
+    font-size: 45px;
+}
+
+.conteudo p {
+    margin:25px;
+    font-size: 25px;
+    font: 28px 'd4';
+    padding: 22px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.conteudo a {
+    color: #00b0f4;
+    text-decoration: none;
+
+}
+
+
+
+
+.secao-03 {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(245, 245, 245, 0.808);
+
+}
+
+.secao-03 > h1 {
+ 
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 30px;
+    font: 50px 'd5';
+}
+
+.secao-03 > p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    font: 25px 'd4';
+    margin-bottom: 60px;
+}
+
+
+
+
+.ct-01 {
+ display: flex;
+ flex-direction: row;
+
+justify-content: center;
+}
+ 
+.ct-01 > div {
+    margin: 13px;
+    height: 80vh;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ct-01 h2 {
+    font: 15px 'd1';
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  
+}
+
+.ct-01 p {
+    display: flex;
+    padding: 10px;
+    font: 19px 'd2';
+    text-align: center;
+    justify-content: space-between;
+    margin: 5px;
+    font-size: 17px;
+    
+}
+
+p.tx-1 {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+
+}
+
+
+
+
+.ct-02 {
+    display: flex;
+    flex-direction: row;
+
+   justify-content: center;
+   }
+
+
+.ct-02 > div {
+    margin: 13px;
+    height: 80vh;
+    width: 30vw;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.ct-02 h1 {
+    font: 30px 'd5';
+}
+
+.ct-02 h2 {
+
+}
+
+.ct-02 p {
+    display: flex;
+    padding: 10px;
+    font: 10px 'd4';
+    text-align: center;
+    font-size: 19px;
+    font: 18px 'd2';
+}
+
+
+
+button {
+
+    border: none;
+    outline: none;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: discord3;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+
+
+button:hover {
+
+    border: none;
+    outline: none;
+    height: 5vh;
+    border-radius: 30px;
+    background-color: rgb(41, 41, 41);
+    color: rgb(255, 255, 255);
+    font-family: discord3;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+
+}
+
+
+
+
+.ct-01 {
+    display: flex;
+    flex-direction: row;
+   
+   justify-content: center;
+   }
+    
+   .ct-01 > div {
+       margin: 13px;
+       height: 80vh;
+       width: 30vw;
+       background-color: #fff;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   
+   }
+   
+   .ct-01 h2 {
+       font: 15px 'd1';
+       justify-content: center;
+       align-items: center;
+       margin: 10px;
+     
+   }
+   
+   .ct-01 p {
+       display: flex;
+       padding: 10px;
+       font: 19px 'd2';
+       text-align: center;
+       justify-content: space-between;
+       margin: 5px;
+       font-size: 17px;
+       
+   }
+   
+   p.tx-1 {
+       display: flex;
+       flex-direction: column;
+       text-align: left;
+       padding: 10px;
+       margin: 5px;
+       font-size: 16px;
+   
+   }
+   
+   
+   
+   
+   .ct-02 {
+       display: flex;
+       flex-direction: row;
+   
+      justify-content: center;
+      }
+   
+   
+   .ct-02 > div {
+       margin: 13px;
+       height: 80vh;
+       width: 30vw;
+       background-color: #fff;
+       border-radius: 10px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+   
+   }
+   
+   .ct-02 h1 {
+       font: 30px 'd5';
+   }
+   
+   .ct-02 h2 {
+   
+   }
+   
+   .ct-02 p {
+       display: flex;
+       padding: 10px;
+       font: 10px 'd4';
+       text-align: center;
+       font-size: 19px;
+       font: 18px 'd2';
+   }
+
+
+
+
+
+        
+        
+        
+      
